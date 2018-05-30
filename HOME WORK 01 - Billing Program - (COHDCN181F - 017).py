@@ -9,12 +9,9 @@ print("Billing Program\n")
 input("Press Enter to Start")
 
 while True:
-    Item_Name= input("Enter Item Name")
-    if not Item_Name:
-        break
-    item_list.append(Item_Name)
-    print(Item_Name)
     Item_Price= input("Enter Item Price")
+    if not Item_Price:
+        break
     price_list.append(Item_Price)
     print(Item_Price)
     Item_Quantity= input("Enter Item Quantity")
